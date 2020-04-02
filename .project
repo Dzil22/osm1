@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>OracleComms_OSM_SOM_TSQFunction</name>
+	<comment></comment>
+	<projects>
+		<project>OracleComms_OSM_EnterpriseService_SOM_WorkGroup</project>
+		<project>OracleComms_OSM_CommonDataDictionary</project>
+		<project>OracleComms_OSM_SOM_EnterpriseService_Orchestration</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.mslv.studio.core.builder.generator</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.mslv.studio.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.mslv.studio.provisioning.nature</nature>
+		<nature>com.mslv.studio.core.nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>
